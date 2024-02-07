@@ -1,0 +1,15 @@
+/* Prefix: header_ for header components */
+
+header {
+    display: flex;
+    justify-content: center;
+    place-items: center;
+    align-items: center;
+    padding: 1rem 2rem;
+    font-size: 1.4rem;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+header > a {
+    text-align: center;
+}

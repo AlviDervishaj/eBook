@@ -1,3 +1,5 @@
+import "./Form.css";
+
 export function Form() {
     return (
         <form id="generate_e_book_form">

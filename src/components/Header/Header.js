@@ -1,9 +1,9 @@
-
+import './Header.css';
 
 export function Header() {
     return (
         <header>
-            <h1>E-Book Generator</h1>
+            <a href="/">E-Book Generator</a>
         </header>
     );
 }
