@@ -1,85 +1,11 @@
-html, body {
-  width: 100%;
-  height: 100%;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-#app {
-  width: 100vw;
-  height: 100vh;
-  position: relative;
-}
+@layer base {
 
-/* Default margins are removed */
-blockquote,
-dl,
-dd,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-hr,
-figure,
-p,
-pre {
-  margin: 0;
-}
-/* Headings are unstyled */
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-size: inherit;
-  font-weight: inherit;
-}
-/* Lists are unstyled */
-ol,
-ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-/* Images are block-level */
-img,
-svg,
-video,
-canvas,
-audio,
-iframe,
-embed,
-object {
-  display: block;
-  vertical-align: middle;
-}
-
-/* Remove styling from links */
-a {
-  text-decoration: none;
-  color: inherit;
-}
-
-/* Images are constrained to the parent width */
-img,
-video {
-  max-width: 100%;
-  height: auto;
-}
-/* Border styles are reset globally */
-*,
-::before,
-::after {
-  border-width: 0;
-  border-style: solid;
-  border-color: #1b263b;
-}
-
-button {
-  background-color: transparent;
-  padding: 0.5rem 1rem;
-  border: 1px solid #1b263b;
-  cursor: pointer;
-  border-radius: 0.25rem;
+  html,
+  body {
+    @apply bg-[#f8f9fa];
+  }
 }
