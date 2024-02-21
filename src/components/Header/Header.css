@@ -1,7 +1,15 @@
 /* Prefix: header_ for header components */
 
 header {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+
+#header {
     display: flex;
+    width: 100vw;
+    height: 100vh;
     justify-content: center;
     place-items: center;
     align-items: center;
@@ -9,7 +17,18 @@ header {
     font-size: 1.4rem;
     text-align: center;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+    background-clip: padding-box;
+    background-size: cover;
 }
-header > a {
+#header > a {
     text-align: center;
+    color: #e0e1dd;
+    font-weight: 500;
+    font-size: 2rem;
+    position: fixed;
+    top: 5rem;
+    left: 6rem;
 }
