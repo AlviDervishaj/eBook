@@ -12,7 +12,7 @@ form {
   margin-top: 20px;
   width: 100%;
   padding: 12px;
-  background-color: #fb8500;
+  background-color: #3862d8;
   color: white;
   border: none;
   border-radius: 5px;
@@ -23,7 +23,7 @@ form {
 }
 
 #generate_e_book_button:hover {
-  background-color: #fd9e02;
+  background-color: #3a3083;
   width: 100%;
 }
 
